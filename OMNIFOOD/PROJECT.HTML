@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <link rel="stylesheet" type="text/css" href="queries.css"/>
         <link rel="stylesheet" type="text/css" href="normalize.css"/>
         <link rel="stylesheet" type="text/css" href="grid.css"/>
         <link rel="stylesheet" type="text/css" href="PROJECT.CSS"/>
@@ -9,9 +11,10 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="sticky">
                 <div class="row">
                     <img src="logo-white.png" alt="Omnifood logo" class="logo"/>
+                    <img src="logo.png" alt="Omnifood logo" class="logo-black"/>
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>
                         <li><a href="#">How it works</a></li>
@@ -163,7 +166,7 @@
                     <h3>Lisbon</h3>
                     <div class="city-feature">
                         <img class="icon-small" src="https://img.icons8.com/metro/26/e67e22/user-male.png" />
-                        1600+ happy eaters
+                        1600+ happy customers
                     </div>
                     <div class="city-feature">
                         <img class="icon-small" src="https://img.icons8.com/material/26/e67e22/star.png"/>
@@ -179,7 +182,7 @@
                     <h3>San Francisco</h3>
                     <div class="city-feature">
                         <img class="icon-small"  src="https://img.icons8.com/metro/26/e67e22/user-male.png" />
-                        3700+ happy eaters
+                        3700+ happy customers
                     </div>
                     <div class="city-feature">
                         <img class="icon-small"  src="https://img.icons8.com/material/26/e67e22/star.png"/>
@@ -195,7 +198,7 @@
                     <h3>Berlin</h3>
                     <div class="city-feature">
                         <img class="icon-small"  src="https://img.icons8.com/metro/26/e67e22/user-male.png" />
-                        2300+ happy eaters
+                        2300+ happy customers
                     </div>
                     <div class="city-feature">
                         <img class="icon-small" src="https://img.icons8.com/material/26/e67e22/star.png"/>
@@ -211,7 +214,7 @@
                     <h3>London</h3>
                     <div class="city-feature">
                         <img class="icon-small" src="https://img.icons8.com/metro/26/e67e22/user-male.png" />
-                        1200+ happy eaters
+                        1200+ happy customers
                     </div>
                     <div class="city-feature">
                         <img  class="icon-small" src="https://img.icons8.com/material/26/e67e22/star.png"/>
@@ -373,7 +376,7 @@
                 <form method="POST" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>How did you find us?</label>
+                            <label for="find-us">How did you find us?</label>
 
                         </div>
                         <div class="col span-2-of-3">
@@ -418,9 +421,39 @@
                 </form>
             </div>
         </div>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#"> About us</a></li>
+                        <li><a href="#"> Blog</a></li>
+                        <li><a href="#"> Press</a></li>
+                        <li><a href="#"> iOS App</a></li>
+                        <li><a href="#"> Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><img src="https://img.icons8.com/material-outlined/24/3b5998/facebook-new.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/ios-filled/24/55acee/twitter.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/fluent-systems-regular/24/dd4b39/google-plus.png"/></a></li>
+                        <li><a href="#"><img src="https://img.icons8.com/material-outlined/26/fbad50/instagram-new.png"/></a></li>
+                    </ul>
 
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2020 by Omnifood. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="PROJECT.js"></script>
     </body>
+
+    
  
 </html>
-
 
